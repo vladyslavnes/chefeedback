@@ -1,6 +1,6 @@
 import { h, Component } from 'preact';
 import { route } from 'preact-router';
-import Toolbar from 'preact-material-components/Toolbar';
+import Header from 'preact-material-components/Toolbar';
 import Drawer from 'preact-material-components/Drawer';
 import List from 'preact-material-components/List';
 import Dialog from 'preact-material-components/Dialog';
@@ -12,7 +12,7 @@ import 'preact-material-components/List/style.css';
 import 'preact-material-components/Toolbar/style.css';
 // import style from './style';
 
-export default class Header extends Component {
+export default class Toolbar extends Component {
 	closeDrawer() {
 		this.drawer.MDComponent.open = false;
 		this.state = {
@@ -54,19 +54,19 @@ export default class Header extends Component {
 	render() {
 		return (
 			<div>
-				<Toolbar className="toolbar">
-					<Toolbar.Row>
-						<Toolbar.Section align-start>
-							<Toolbar.Icon menu onClick={this.openDrawer}>
+				<Header className="Header">
+					<Header.Row>
+						<Header.Section align-start>
+							<Header.Icon menu onClick={this.openDrawer}>
 								menu
-							</Toolbar.Icon>
-							<Toolbar.Title>Preact app</Toolbar.Title>
-						</Toolbar.Section>
-						<Toolbar.Section align-end onClick={this.openSettings}>
-							<Toolbar.Icon>settings</Toolbar.Icon>
-						</Toolbar.Section>
-					</Toolbar.Row>
-				</Toolbar>
+							</Header.Icon>
+							<Header.Title>Preact app</Header.Title>
+						</Header.Section>
+						<Header.Section align-end onClick={this.openSettings}>
+							<Header.Icon>settings</Header.Icon>
+						</Header.Section>
+					</Header.Row>
+				</Header>
 				<Drawer.TemporaryDrawer ref={this.drawerRef}>
 					<Drawer.DrawerContent>
 						<Drawer.DrawerItem onClick={this.goHome}>
