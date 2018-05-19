@@ -4,8 +4,11 @@ class LastComments extends Component {
     render() {
         return (
             <div className="LastComments">
+                <div className="LastCommentsHeader">
+                    <h4>Останні відгуки</h4>
+                </div>
                 <div className="LastCommentContainer">
-                    <div className="firstItem">
+                    <div className="Item">
                         <span className="avaIcon">
 
                         </span>
@@ -18,12 +21,6 @@ class LastComments extends Component {
                         <span className="dateCreate">
                             21.14.1012
                         </span>
-                    </div>
-                    <div className="secondItem">
-
-                    </div>
-                    <div className="thirdItem">
-
                     </div>
                 </div>
             </div>

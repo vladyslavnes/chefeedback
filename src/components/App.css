@@ -94,23 +94,46 @@ header .myContainer .enter a {
   background: lightblue;
   line-height: 52px; }
 
+.LastComments {
+  padding: 20px 0; }
+
+.LastComments .lastCommentHeader {
+  display: flex;
+  align-items: center; }
+
+.LastComments .lastCommentHeader h4 {
+  text-align: center; }
+
 .LastComments .LastCommentContainer {
-  max-width: 800px;
+  max-width: 770px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between; }
 
-.LastComments .LastCommentContainer .firstItem .avaIcon {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background: grey; }
-
-.LastComments .LastCommentContainer .firstItem .categoria {
+.LastComments .LastCommentContainer .Item {
   color: black; }
 
-.LastComments .LastCommentContainer .firstItem .subjectName {
-  color: black; }
+.LastComments .LastCommentContainer .Item .avaIcon {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  background: grey;
+  margin-bottom: 30px; }
+
+.LastComments .LastCommentContainer .Item .categoria {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px; }
+
+.LastComments .LastCommentContainer .Item .subjectName {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px; }
+
+.LastComments .LastCommentContainer .Item .dateCreate {
+  display: block;
+  text-align: center; }
 
 .Welcome {
   background: #000;

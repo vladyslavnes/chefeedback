@@ -4,7 +4,9 @@ class Categories extends Component {
     render() {
         return (
             <div className="Categories">
-                Categories
+                <div className="container">
+                    <d
+                </div>
             </div>
         );
     }
