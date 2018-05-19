@@ -1,0 +1,30 @@
+.footer {
+  background-color: black;
+  color: white;
+  font-size: 18px; }
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px; }
+
+.footer .container {
+  display: flex;
+  text-align: center; }
+
+.min-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto; }
+
+.social ul {
+  list-style: none;
+  display: flex;
+  padding: 0; }
+
+.social li {
+  padding: 0;
+  margin: 0px 15px;
+  width: 10px;
+  height: 10px; }
