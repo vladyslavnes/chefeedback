@@ -1,3 +1,17 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.flex-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 @import "Categories/index.scss";
 @import "Comment/index.scss";
 @import "Footer/index.scss";
