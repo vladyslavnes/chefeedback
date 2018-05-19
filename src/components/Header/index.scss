@@ -1,5 +1,9 @@
   header {
-    background: #101010;
+    background: #10101057;
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    z-index: 99999;
     .myContainer {
       display: flex;
       justify-content: space-between;
@@ -37,7 +41,7 @@
             margin-right: 0;
           }
           li:hover {
-            background: lightblue;
+            background: #333232;
           }
         }
       }
@@ -46,7 +50,7 @@
         a {
           padding: 10px 30px;
           border-radius: 10px;
-          background: lightblue;
+          background: #333232;
           line-height: 52px;
         }
       }

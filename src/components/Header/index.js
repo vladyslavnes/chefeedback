@@ -20,6 +20,11 @@ class Header extends Component {
                             </li>
                             <li className="feedback">
                                 <a href="#/feedback">
+                                    Відгуки
+                                </a>
+                            </li>
+                            <li className="feedback">
+                                <a href="#/add-feedback">
                                     Залишити відгук
                                 </a>
                             </li>

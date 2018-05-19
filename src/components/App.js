@@ -6,6 +6,8 @@ import Header from "./Header"
 import Welcome from "./Welcome"
 import Home from "./pages/Home"
 import UploadComment from "./UploadComment"
+
+
 import Footer from "./Footer"
 
 // router
@@ -32,7 +34,11 @@ class App extends Component {
           <div>
             <Switch>
               <Route exact path='/' component={Home} />
+
               {/*<Route exact path='/addComment' component={uploadComment} />*/}
+
+              <Route exact path='/add-feedback' component={UploadComment} />
+              <Route exact path='/feedback' component={UploadComment} />
               <Route component={NotFound} />
             </Switch>
           </div>
