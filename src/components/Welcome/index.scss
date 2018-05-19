@@ -1,8 +1,19 @@
 .Welcome {
-  text-align: center;
-  background: lightskyblue;
+  background: #000;
+  color: #fff;
+  
+  .inner {
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+  }
+
   height: 400px;
   h1 {
+    font-size: 4em;
     padding-bottom: 20px;
   }
 
