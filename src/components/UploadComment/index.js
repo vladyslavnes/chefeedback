@@ -10,10 +10,11 @@ class UploadComment extends Component {
         return (
             <div className="UploadComment">
                 <form>
-                    <p>Категорія</p>
+                    <h3>Категорія</h3>
                     <input type="text" />
-                    <p>Коментар</p>
-                    <textarea rows="80" cols="50"></textarea>
+                    <h3>Коментар</h3>
+                    <textarea rows="10" cols="20"></textarea>
+
                     <button onClick={() => this.upload()}>Додати Відгук</button>
                 </form>
             </div>
@@ -21,4 +22,4 @@ class UploadComment extends Component {
     }
 }
 
-export default App;
+export default UploadComment;

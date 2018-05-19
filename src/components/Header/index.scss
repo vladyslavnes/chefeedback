@@ -1,5 +1,9 @@
   header {
-    background: #101010;
+    background: #10101057;
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    z-index: 99999;
     .myContainer {
       display: flex;
       justify-content: space-between;
@@ -23,11 +27,14 @@
             position: relative;
             margin-right: 50px;
             overflow: hidden;
-            padding: 10px;
             a {
+              display: block;
+              height: 100%;
+              width: 100%;
               line-height: 52px;
               font-size: 30px;
               color: white;
+              padding: 10px;
             }
           }
           li:last-child {

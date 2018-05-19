@@ -23,6 +23,11 @@ class Header extends Component {
                                     Відгуки
                                 </a>
                             </li>
+                            <li className="feedback">
+                                <a href="#/add-feedback">
+                                    Залишити відгук
+                                </a>
+                            </li>
                             <li className="aboutUs">
                                 <a href="#/aboutUs">
                                     Про нас
@@ -31,9 +36,6 @@ class Header extends Component {
 
                         </ul>
                     </nav>
-                    <div className="enter">
-                        <a href="#">Вхід</a>
-                    </div>
                 </div>
 
             </header>
