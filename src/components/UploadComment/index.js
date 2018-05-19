@@ -11,4 +11,4 @@ class UploadComment extends Component {
     }
 }
 
-export default App;
+export default UploadComment;

@@ -5,7 +5,7 @@ import './App.css'
 import Header from "./Header"
 import Welcome from "./Welcome"
 import Home from "./pages/Home"
-import Profile from "./pages/Profile"
+import UploadComment from "./UploadComment"
 import Footer from "./Footer"
 
 // router
@@ -32,7 +32,7 @@ class App extends Component {
           <div>
             <Switch>
               <Route exact path='/' component={Home} />
-              <Route exact path='/profile' component={Profile} />
+              {/*<Route exact path='/addComment' component={uploadComment} />*/}
               <Route component={NotFound} />
             </Switch>
           </div>

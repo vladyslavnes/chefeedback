@@ -75,7 +75,7 @@ header .myContainer .mainNav ul li a {
   height: 100%;
   width: 100%;
   line-height: 52px;
-  font-size: 30px;
+  font-size: 25px;
   color: white;
   padding: 10px; }
 
@@ -94,10 +94,28 @@ header .myContainer .enter a {
   background: lightblue;
   line-height: 52px; }
 
+.LastComments .LastCommentContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; }
+
+.LastComments .LastCommentContainer .firstItem .avaIcon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: grey; }
+
+.LastComments .LastCommentContainer .firstItem .categoria {
+  color: black; }
+
+.LastComments .LastCommentContainer .firstItem .subjectName {
+  color: black; }
+
 .Welcome {
   background: #000;
   color: #fff;
-  height: 400px; }
+  height: 450px; }
 
 .Welcome .inner {
   margin: 0 auto;
@@ -108,8 +126,11 @@ header .myContainer .enter a {
   width: 1300px; }
 
 .Welcome h1 {
-  font-size: 4em;
-  padding-bottom: 20px; }
+  font-size: 4em; }
 
 .Welcome p {
-  line-height: 15px; }
+  margin: -5px auto;
+  padding: 40px;
+  border: 1px dashed #fff;
+  width: 50%;
+  font-size: 1.5em; }

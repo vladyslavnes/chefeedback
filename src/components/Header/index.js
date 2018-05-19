@@ -20,7 +20,7 @@ class Header extends Component {
                             </li>
                             <li className="feedback">
                                 <a href="#/feedback">
-                                    Відгуки
+                                    Залишити відгук
                                 </a>
                             </li>
                             <li className="aboutUs">
@@ -31,11 +31,7 @@ class Header extends Component {
 
                         </ul>
                     </nav>
-                    <div className="enter">
-                        <a href="#">Вхід</a>
-                    </div>
                 </div>
-
             </header>
         );
     }
