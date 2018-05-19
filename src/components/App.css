@@ -2,18 +2,28 @@
   font-family: Helvetica, Arial, sans-serif; }
 
 body {
-  margin: 0;
-  overflow-x: hidden; }
+  margin: 0; }
 
 .flex-wrapper {
   display: flex;
   justify-content: center; }
 
 .Welcome {
-  text-align: center;
-  background: lightskyblue;
+  background: #000;
+  color: #fff;
   height: 400px; }
-  .Welcome h1 {
-    padding-bottom: 20px; }
-  .Welcome p {
-    line-height: 15px; }
+
+.Welcome .inner {
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 1300px; }
+
+.Welcome h1 {
+  font-size: 4em;
+  padding-bottom: 20px; }
+
+.Welcome p {
+  line-height: 15px; }

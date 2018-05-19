@@ -29,7 +29,6 @@ class App extends Component {
       <HashRouter>
         <div className='App'>
           <Header />
-          <Welcome />
           <div>
             <Switch>
               <Route exact path='/' component={Home} />
