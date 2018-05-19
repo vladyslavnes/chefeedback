@@ -35,79 +35,68 @@ body {
   padding: 0; }
 
 .social li {
-  padding: 0;
-  margin: 0px 15px;
+  margin: 15px 15px 20px 15px;
   width: 10px;
   height: 10px; }
 
+p {
+  margin: 10px 0; }
+
 header {
   background: #101010; }
-
-header .myContainer {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 0 10px; }
-
-header .myContainer .logo {
-  padding-top: 10px;
-  width: 200px;
-  height: 62px;
-  overflow: hidden; }
-
-header .myContainer .logo h1 {
-  font-size: 10px; }
-
-header .myContainer .mainNav ul {
-  display: flex;
-  justify-content: space-between; }
-
-header .myContainer .mainNav ul li {
-  position: relative;
-  margin-right: 50px;
-  overflow: hidden;
-  padding: 10px; }
-
-header .myContainer .mainNav ul li a {
-  line-height: 52px;
-  font-size: 30px;
-  color: white; }
-
-header .myContainer .mainNav ul li:last-child {
-  margin-right: 0; }
-
-header .myContainer .mainNav ul li:hover {
-  background: lightblue; }
-
-header .myContainer .enter {
-  padding: 10px 0; }
-
-header .myContainer .enter a {
-  padding: 10px 30px;
-  border-radius: 10px;
-  background: lightblue;
-  line-height: 52px; }
+  header .myContainer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 10px; }
+    header .myContainer .logo {
+      padding-top: 10px;
+      width: 200px;
+      height: 62px;
+      overflow: hidden; }
+      header .myContainer .logo h1 {
+        font-size: 10px; }
+    header .myContainer .mainNav ul {
+      display: flex;
+      justify-content: space-between; }
+      header .myContainer .mainNav ul li {
+        position: relative;
+        margin-right: 50px;
+        overflow: hidden;
+        padding: 10px; }
+        header .myContainer .mainNav ul li a {
+          line-height: 52px;
+          font-size: 30px;
+          color: white; }
+      header .myContainer .mainNav ul li:last-child {
+        margin-right: 0; }
+      header .myContainer .mainNav ul li:hover {
+        background: #333232; }
+    header .myContainer .enter {
+      padding: 10px 0; }
+      header .myContainer .enter a {
+        padding: 10px 30px;
+        border-radius: 10px;
+        background: #333232;
+        line-height: 52px; }
 
 .Welcome {
   background: #000;
   color: #fff;
   height: 450px; }
-
-.Welcome .inner {
-  margin: 0 auto;
-  padding: 10px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  width: 1300px; }
-
-.Welcome h1 {
-  font-size: 4em; }
-
-.Welcome p {
-  margin: -5px auto;
-  padding: 40px;
-  border: 1px dashed #fff;
-  width: 50%;
-  font-size: 1.5em; }
+  .Welcome .inner {
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 1300px; }
+  .Welcome h1 {
+    font-size: 4em; }
+  .Welcome p {
+    margin: -5px auto;
+    padding: 40px;
+    border: 1px dashed #fff;
+    width: 50%;
+    font-size: 1.5em; }
