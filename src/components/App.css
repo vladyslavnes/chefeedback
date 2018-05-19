@@ -1,0 +1,19 @@
+* {
+  font-family: Helvetica, Arial, sans-serif; }
+
+body {
+  margin: 0;
+  overflow-x: hidden; }
+
+.flex-wrapper {
+  display: flex;
+  justify-content: center; }
+
+.Welcome {
+  text-align: center;
+  background: lightskyblue;
+  height: 400px; }
+  .Welcome h1 {
+    padding-bottom: 20px; }
+  .Welcome p {
+    line-height: 15px; }
