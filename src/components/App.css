@@ -49,103 +49,83 @@ header {
   left: 0;
   width: 100%;
   z-index: 99999; }
-
-header .myContainer {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 0 10px; }
-
-header .myContainer .logo {
-  padding-top: 10px;
-  width: 200px;
-  height: 62px;
-  overflow: hidden; }
-
-header .myContainer .logo h1 {
-  font-size: 10px; }
-
-header .myContainer .mainNav ul {
-  display: flex;
-  justify-content: space-between; }
-
-header .myContainer .mainNav ul li {
-  position: relative;
-  margin-right: 50px;
-  overflow: hidden; }
-
-header .myContainer .mainNav ul li a {
-  display: block;
-  height: 100%;
-  width: 100%;
-  line-height: 52px;
-  font-size: 30px;
-  color: white;
-  padding: 10px; }
-
-header .myContainer .mainNav ul li:last-child {
-  margin-right: 0; }
-
-header .myContainer .mainNav ul li:hover {
-  background: #333232; }
-
-header .myContainer .enter {
-  padding: 10px 0; }
-
-header .myContainer .enter a {
-  padding: 10px 30px;
-  border-radius: 10px;
-  background: #333232;
-  line-height: 52px; }
+  header .myContainer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 10px; }
+    header .myContainer .logo {
+      padding-top: 10px;
+      width: 200px;
+      height: 62px;
+      overflow: hidden; }
+      header .myContainer .logo h1 {
+        font-size: 10px; }
+    header .myContainer .mainNav ul {
+      display: flex;
+      justify-content: space-between; }
+      header .myContainer .mainNav ul li {
+        position: relative;
+        margin-right: 50px;
+        overflow: hidden; }
+        header .myContainer .mainNav ul li a {
+          display: block;
+          height: 100%;
+          width: 100%;
+          line-height: 52px;
+          font-size: 30px;
+          color: white;
+          padding: 10px; }
+      header .myContainer .mainNav ul li:last-child {
+        margin-right: 0; }
+      header .myContainer .mainNav ul li:hover {
+        background: #333232; }
+    header .myContainer .enter {
+      padding: 10px 0; }
+      header .myContainer .enter a {
+        padding: 10px 30px;
+        border-radius: 10px;
+        background: #333232;
+        line-height: 52px; }
 
 .UploadComment {
   padding-top: 80px; }
-
-.UploadComment form {
-  max-width: 770px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between; }
-
-.UploadComment form .preview {
-  display: flex;
-  flex-wrap: wrap; }
-
-.UploadComment form .img-container {
-  padding: 5px;
-  width: 33.33333333%;
-  max-height: 170px; }
-
-.UploadComment form .preview-image {
-  display: block;
-  width: 100%;
-  height: 100%; }
-
-.UploadComment form .custom-file-upload {
-  border: 1px solid #ccc;
-  display: block;
-  width: 120px;
-  padding: 6px 12px;
-  cursor: pointer; }
-
-.UploadComment form input[type="file"] {
-  display: none; }
-
-.UploadComment form textarea, .UploadComment form select, .UploadComment form button, .UploadComment form input[type=text] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box; }
-
-.UploadComment .secondPart {
-  text-align: center; }
-
-.UploadComment .secondPart h2 {
-  margin-bottom: 30px; }
-
-.UploadComment .secondPart div input {
-  margin-right: 20px; }
+  .UploadComment form {
+    max-width: 770px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; }
+    .UploadComment form .preview {
+      display: flex;
+      flex-wrap: wrap; }
+    .UploadComment form .img-container {
+      padding: 5px;
+      width: 33.33333333%;
+      max-height: 170px; }
+    .UploadComment form .preview-image {
+      display: block;
+      width: 100%;
+      height: 100%; }
+    .UploadComment form .custom-file-upload {
+      border: 1px solid #ccc;
+      display: block;
+      width: 120px;
+      padding: 6px 12px;
+      cursor: pointer; }
+    .UploadComment form input[type="file"] {
+      display: none; }
+    .UploadComment form textarea, .UploadComment form select, .UploadComment form button, .UploadComment form input[type=text] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box; }
+  .UploadComment .secondPart {
+    text-align: center; }
+    .UploadComment .secondPart h2 {
+      margin-bottom: 30px; }
+    .UploadComment .secondPart div input {
+      margin-right: 20px; }
 
 .Welcome {
   padding-top: 40px;
@@ -153,34 +133,30 @@ header .myContainer .enter a {
   z-index: 9999;
   position: relative;
   color: #fff; }
-
-.Welcome:before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)), url("../../assets/images/bg.jpg");
-  background-size: cover;
-  background-position: center center; }
-
-.Welcome .inner {
-  margin: 0 auto;
-  padding: 10px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  width: 1300px; }
-
-.Welcome h1 {
-  font-size: 4em; }
-
-.Welcome p {
-  margin: -5px auto;
-  padding: 40px;
-  border: 1px dashed #fff;
-  width: 50%;
-  font-size: 1.5em; }
+  .Welcome:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)), url("../../assets/images/bg.jpg");
+    background-size: cover;
+    background-position: center center; }
+  .Welcome .inner {
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 1300px; }
+  .Welcome h1 {
+    font-size: 4em; }
+  .Welcome p {
+    margin: -5px auto;
+    padding: 40px;
+    border: 1px dashed #fff;
+    width: 50%;
+    font-size: 1.5em; }
