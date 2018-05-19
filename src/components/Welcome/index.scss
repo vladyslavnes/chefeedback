@@ -11,13 +11,16 @@
     width: 1300px;
   }
 
-  height: 400px;
+  height: 450px;
   h1 {
     font-size: 4em;
-    padding-bottom: 20px;
   }
 
   p {
-    line-height: 15px;
+    margin: -5px auto;
+    padding: 40px;
+    border: 1px dashed #fff;
+    width: 50%;
+    font-size: 1.5em;
   }
 }
