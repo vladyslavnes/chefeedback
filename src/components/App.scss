@@ -1,3 +1,16 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.flex-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 @import "Categories/index.scss";
 @import "Comment/index.scss";
 @import "Footer/index.scss";
@@ -5,3 +18,4 @@
 @import "LastComments/index.scss";
 @import "UploadComment/index.scss";
 @import "Welcome/index.scss";
+@import "normalize.css";

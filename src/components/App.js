@@ -29,11 +29,10 @@ class App extends Component {
       <HashRouter>
         <div className='App'>
           <Header />
-          <Welcome />
           <div>
             <Switch>
               <Route exact path='/' component={Home} />
-              <Route path='/profile' component={Profile} />
+              <Route exact path='/profile' component={Profile} />
               <Route component={NotFound} />
             </Switch>
           </div>

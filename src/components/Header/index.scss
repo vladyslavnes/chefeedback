@@ -1,0 +1,53 @@
+  header {
+    background: #101010;
+    .myContainer {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 0 10px;
+      .logo {
+        padding-top: 10px;
+        width: 200px;
+        height: 62px;
+        overflow: hidden;
+        h1 {
+          font-size: 10px;
+        }
+      }
+      .mainNav {
+        ul {
+          display: flex;
+          justify-content: space-between;
+          li {
+            position: relative;
+            margin-right: 50px;
+            overflow: hidden;
+            padding: 10px;
+            a {
+              line-height: 52px;
+              font-size: 30px;
+              color: white;
+            }
+          }
+          li:last-child {
+            margin-right: 0;
+          }
+          li:hover {
+            background: lightblue;
+          }
+        }
+      }
+      .enter {
+        padding: 10px 0;
+        a {
+          padding: 10px 30px;
+          border-radius: 10px;
+          background: lightblue;
+          line-height: 52px;
+        }
+      }
+    }
+
+  }
+
