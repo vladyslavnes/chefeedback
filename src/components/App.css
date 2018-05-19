@@ -60,7 +60,7 @@ header .myContainer {
 header .myContainer .logo {
   padding-top: 10px;
   width: 200px;
-  height: 62px;
+  height: 60px;
   overflow: hidden; }
 
 header .myContainer .logo h1 {
@@ -79,7 +79,7 @@ header .myContainer .mainNav ul li a {
   display: block;
   height: 100%;
   width: 100%;
-  line-height: 52px;
+  line-height: 42px;
   font-size: 25px;
   color: white;
   padding: 10px; }
@@ -227,6 +227,6 @@ header .myContainer .enter a {
 .Welcome p {
   margin: -5px auto;
   padding: 40px;
-  border: 1px dashed #fff;
-  width: 50%;
-  font-size: 1.5em; }
+  border: 0.5px solid #fff;
+  width: 60%;
+  font-size: 1.8em; }
