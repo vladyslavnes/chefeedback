@@ -148,11 +148,50 @@ header .myContainer .enter a {
 .UploadComment {
   padding-top: 80px; }
 
-.UploadComment textarea, .UploadComment input[type=text] {
+.UploadComment form {
+  max-width: 770px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; }
+
+.UploadComment form .preview {
+  display: flex;
+  flex-wrap: wrap; }
+
+.UploadComment form .img-container {
+  padding: 5px;
+  width: 33.33333333%;
+  max-height: 170px; }
+
+.UploadComment form .preview-image {
+  display: block;
+  width: 100%;
+  height: 100%; }
+
+.UploadComment form .custom-file-upload {
+  border: 1px solid #ccc;
+  display: block;
+  width: 120px;
+  padding: 6px 12px;
+  cursor: pointer; }
+
+.UploadComment form input[type="file"] {
+  display: none; }
+
+.UploadComment form textarea, .UploadComment form select, .UploadComment form button, .UploadComment form input[type=text] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box; }
+
+.UploadComment .secondPart {
+  text-align: center; }
+
+.UploadComment .secondPart h2 {
+  margin-bottom: 30px; }
+
+.UploadComment .secondPart div input {
+  margin-right: 20px; }
 
 .Welcome {
   padding-top: 40px;
