@@ -62,9 +62,7 @@ export default class Toolbar extends Component {
 							</Header.Icon>
 							<Header.Title>Preact app</Header.Title>
 						</Header.Section>
-						<Header.Section align-end onClick={this.openSettings}>
-							<Header.Icon>settings</Header.Icon>
-						</Header.Section>
+
 					</Header.Row>
 				</Header>
 				<Drawer.TemporaryDrawer ref={this.drawerRef}>
