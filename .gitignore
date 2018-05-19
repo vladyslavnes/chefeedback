@@ -19,3 +19,4 @@ yarn-error.log*
 src/config/index.js
 src/**/*.css
 
+.idea/workspace.xml

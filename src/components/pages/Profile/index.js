@@ -9,7 +9,8 @@ class Profile extends Component {
                     <img src={''} />
                     </div>
                     <div>
-
+                        <h3>Name: John Doe</h3>
+                        <h3>Email: John Doe</h3>
                     </div>
                 </div>
             </div>

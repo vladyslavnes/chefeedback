@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd5e6b1f-373b-4b90-989d-449b18d00725" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/App.css" afterPath="$PROJECT_DIR$/src/components/App.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/App.js" afterPath="$PROJECT_DIR$/src/components/App.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/App.scss" afterPath="$PROJECT_DIR$/src/components/App.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Header/index.js" afterPath="$PROJECT_DIR$/src/components/Header/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Header/index.scss" afterPath="$PROJECT_DIR$/src/components/Header/index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Welcome/index.js" afterPath="$PROJECT_DIR$/src/components/Welcome/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Welcome/index.scss" afterPath="$PROJECT_DIR$/src/components/Welcome/index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/Home/index.js" afterPath="$PROJECT_DIR$/src/components/pages/Home/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/Home/index.scss" afterPath="$PROJECT_DIR$/src/components/pages/Home/index.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,8 +38,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Header/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="34" column="40" lean-forward="false" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+            <state relative-caret-position="360">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -55,8 +56,8 @@
         <option value="$PROJECT_DIR$/src/components/App.scss" />
         <option value="$PROJECT_DIR$/src/components/normalize.css" />
         <option value="$PROJECT_DIR$/src/components/App.css" />
-        <option value="$PROJECT_DIR$/src/components/Header/index.js" />
         <option value="$PROJECT_DIR$/src/components/Header/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/Header/index.js" />
       </list>
     </option>
   </component>
@@ -305,12 +306,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526731963248</updated>
-      <workItem from="1526731964727" duration="8086000" />
+      <workItem from="1526731964727" duration="8623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8086000" />
+    <option name="totallyTimeSpent" value="8623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -361,9 +362,9 @@
         <state relative-caret-position="483">
           <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <element signature="e#75#104#0" expanded="true" />
-            <element signature="e#248#292#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="false" />
+            <element signature="e#75#104#0" expanded="false" />
+            <element signature="e#248#292#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -407,8 +408,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Header/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="34" column="40" lean-forward="false" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        <state relative-caret-position="360">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding />
         </state>
       </provider>
